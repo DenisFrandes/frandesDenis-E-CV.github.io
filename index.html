@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style-p.css"/>
+    <link rel="stylesheet" href="mediaQueries.css"/>
+    <script src="https://kit.fontawesome.com/f2d5d8860f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="desktopNav">
+        <div class="logo">Frandes Denis</div>
+        <div>
+            <ul class="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills/Strengths</a></li> 
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobileNav">
+        <div class="logo">Frandes Denis</div>
+        <div class="mobileMenu">
+            <div class="mobileIcon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menuLinks">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills/Strengths</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <div class="area">
+        <ul class="circles">
+            <li class="animatie" id="z"></li>
+            <li class="animatie" id="x"></li>
+            <li class="animatie" id="c"></li>
+            <li class="animatie" id="v"></li>
+            <li class="animatie" id="b"></li>
+            <li class="animatie" id="n"></li>
+            <li class="animatie" id="m"></li>
+            <li class="animatie" id="l"></li>
+            <li class="animatie" id="k"></li>
+            <li class="animatie" id="j"></li>
+        </ul>
+    </div>
+    <section id="profile">
+        <div class="sectionPic-container" id="pozaP">
+            <div class="linie">
+                <div class="punct"></div>
+            </div>
+            <div class="linie">
+                <div class="punct"></div>
+            </div>
+            <img src="./poze/aboutPhoto.png" alt="FrandesPozaProfil" class="FrandesPozaProfil">
+        </div>
+        <div class="sectionText">
+            <p class="sectionText_p1">Hello, I'm</p>
+            <div class="scrisImprejur">
+                <svg viewBox="0 0 800 300">
+                    <symbol id="s-text">
+                        <text  text-anchor="middle" x="50%" y="50%" dy=".35em" font-size="8rem">Frandes Denis</text>
+                    </symbol>
+                    <use class="text" xlink:href="#s-text"></use>
+                    <use class="text" xlink:href="#s-text"></use>
+                    <use class="text" xlink:href="#s-text"></use>
+                    <use class="text" xlink:href="#s-text"></use>
+                    <use class="text" xlink:href="#s-text"></use>
+                </svg>
+            </div>
+            <div class="btnContainer">
+                <a href="poze/Frandes Denis-CV.pdf" class="btn butonCV" target="_blank" download="CV-Frandeș-Denis" style="text-align: center; --clr: #1e9bff;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Download CV
+                </a>
+                <a href="#contact" style="--clr: #ff1867;" class="btn butonCV" >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Contact Me
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="sectionText_p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="sectionPic-container">
+                <img class="about-pic" src="./poze/poza1.jpeg" alt="pozaProfil">
+            </div>
+            <div class="aboutDetails">
+                <div class="aboutContainer">
+                    <div class="detailContainer">
+                        <img class="icon" src="./poze/education.png" alt="expIcon">
+                        <h3>Education</h3>
+                        <p>Bachelor's degree in Automation and
+                            Applied Computer Science, Year2<br>UMFST Târgu Mureș</p>
+                    </div>
+                </div>
+                <div class="textContainer" >
+                    <p>I am a second-year student in "Automation and
+                        Applied Computer Science" I am passionate
+                        about technology and eager to constantly learn
+                        something new. I would describe myself as a
+                        hardworking individual, a fast learner who
+                        enjoys problem-solving, and also a strong
+                        collaborator who fits into any team</p>
+                </div>
+            </div>
+        </div>
+        <a href="#skills">
+            <img src="./poze/arrow.png" alt="arrowIcon" class="icon arrow" />  
+        </a>
+    </section>
+    <section id="skills">
+        <p class="sectionText_p1">See My</p>
+        <h1 class="title">Skills/Streng</h1>
+        <div class="skillsDetails">
+            <div class="aboutContainer">
+                <div class="sectiuneContainer">
+                    <h2 class="skillsSub">Programing Skills</h2>
+                    <div class="articleContainer">
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>MatLab</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>Git/GitHub</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="sectiuneContainer">
+                    <h2 class="expSub">Other Skills</h2>
+                    <div class="articleContainer">
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>Inventor</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>AutoCAD</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>Fusion360</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>SAP/Jira</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./poze/checkmark.png" alt="expIcon" class="icon">
+                            <div>
+                                <h3>Canva/Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#experience">
+            <img src="./poze/arrow.png" alt="arrowIcon" class="icon arrow" />  
+        </a>
+    </section>
+    <section id="experience">
+        <p class="sectionText_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="expDetails">
+            <div style="display: grid;">
+                <div class="detailContainer">
+                <img class="icon" src="./poze/experience.png" alt="expIcon">
+                <h3>Hirschmann Automotive Intern</h3>
+                <p>Process Engeneer Jr<br></p>
+            </div>
+            <div class="textContainer" >
+                <ul>
+                    <li>Implementing, maintaining, and optimizing production processes.</li>
+                    <li>Validating equipment/products within the area of responsibility.</li>
+                    <li>Issuing, updating, and approving procedures.</li>
+                    <li>Creating work instructions and providing training to production personnel</li>
+                    <li>Collaborating with production, quality, maintenance, and tool shop departments to analyze and resolve issues encountered in the production area.</li>
+                    
+                </ul>
+            </div>
+            </div>
+            <div class="sectionPic-container">
+                <img class="about-pic" src="./poze/poza2.jpeg" alt="pozaProfil">
+            </div>
+        </div>
+    </section>
+<!--contact-->
+    <section id="contact">
+        <p class="sectionText_p1">Get in Touch</p>
+        <h1 class="title">Contact me</h1>
+        <div class="contactInfoMare">
+            <ul class="butonLink">
+                <ul>
+                    <li style="--clr:#2483ff;">
+                        <a href="https://www.linkedin.com/in/denis-frandes-312008278/">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        
+                    </li>
+                </ul>
+                <ul>
+                    <li style="--clr:#ff0000;">
+                        <a href="mailto:frandesdenis9@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                        
+                    </li>
+                </ul>
+                <ul>
+                    <li style="--clr:#00ff08;">
+                        <a href="https://wa.me/0759360828">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        
+                    </li>
+                </ul>
+                <ul>
+                    <li style="--clr:#0e305c;">
+                        <a href="https://www.facebook.com/denis.frandes.9/">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        
+                    </li>
+                </ul> 
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="navLinksContainer">
+                <ul class="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills/Strengths</a></li> 
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Frandes Denis Sorin</p>
+    </footer>
+    <script src="script-P.js"></script>
+</body>
+</html>

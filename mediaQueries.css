@@ -1,0 +1,136 @@
+@media screen and (max-width:1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 10rem;
+    }
+    .aboutContainer{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:1300px){
+    #desktopNav{
+        display: none;
+    }
+    #mobileNav{
+        display: flex;
+    }
+    #experience,.expDetails{
+        margin-top: 2rem;
+    }
+    #profile,.section-container{
+        display: block;
+    }
+    #pozaP{
+        width: 250px;
+        height: 250px;
+    }
+    .arrow{
+        display: none;
+    }
+    section,.section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .sectionPic-container{
+        width: 250px;
+        height: 250px;
+        margin: 0 auto 2rem;
+    }
+    .aboutContainer{
+        margin-top: 0;
+    }
+    .btnContainer a span:nth-child(1),.btnContainer a span:nth-child(3){
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    #contact,footer{
+        height: 40vh;
+
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .aboutContainer,.contactInfoMare, .btnContainer{
+        flex-wrap: wrap;
+    }
+    .contactInfoMare{
+        flex-wrap: wrap;
+    }
+    .expDetails{
+        flex-wrap: wrap;
+    }
+    .btnContainer{
+        flex-direction: row;
+        gap: 1px;
+    }
+    .btn{
+        width: 250px;
+        height: 25px;
+    }
+    .btnContainer a span:nth-child(2),.btnContainer a span:nth-child(4){
+        display: none;
+    }
+    .contactInfo{
+        margin: 0;
+    }
+    .contactInfo p,.navLinks li a{
+        font-size: 1rem;
+    }
+    .expSub{
+        font-size: 1.25rem;
+
+    }
+    .logo{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .navLinks{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .sectionPic-container{
+        z-index: 4;
+        width: auto;
+        height: 46vh;
+        justify-content: center;
+    }
+    #pozaP,.linie,.punct{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #pozaP{
+        height: 240px;
+        width: 240px;
+    }
+    .sectionText_p2{
+        font-size: 1.25rem;
+    }
+    .sectionText{
+        height: 200px;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .textContainer{
+        text-align: justify;
+    }
+    .menuLinks{
+        z-index: 9;
+    }
+    .menuLinks li{
+        z-index: 10;
+    }
+}
